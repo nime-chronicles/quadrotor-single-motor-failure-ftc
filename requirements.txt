@@ -1,0 +1,7 @@
+# Inter IIT Tech Meet 15.0 - Quadrotor Single-Motor Failure Pipeline
+# Tested on Ubuntu 22.04 / 24.04 LTS with Python 3.12+
+numpy>=2.1.6
+scipy>=1.14.0
+matplotlib>=3.10.0
+mujoco>=3.2.0
+pyulog>=1.0.0
