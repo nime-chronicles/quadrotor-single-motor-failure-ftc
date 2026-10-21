@@ -1,12 +1,6 @@
 # Robust Quadrotor Control Under Single-Motor Failure
 **Inter IIT Tech Meet 15.0 — Mock Problem Statement Submission**
 
-* **Submitted by:** Emin Philip Saji (`2501CB04`)
-* **Institute:** Indian Institute of Technology Patna
-* **Target Stack:** Ubuntu 22.04 / 24.04 LTS, Python 3.12+, PX4 Autopilot (SITL), Gazebo Harmonic, MuJoCo 3.9+, PlotJuggler 3.17+
-
----
-
 ## 1. Project Overview
 When one of a quadrotor's four motors fails mid-flight, the vehicle loses the ability to control roll, pitch, yaw, and altitude simultaneously. A standard 4-motor controller (such as stock PX4 PID) tries to hold yaw heading, saturates the remaining actuators, and crashes within seconds.
 
